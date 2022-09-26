@@ -61,12 +61,12 @@ public class Ej9 {
 			System.out.println("El sueldo neto es: " + sueldoNeto);
 		}
 
-		if (sueldoBruto > 5000 && sueldoBruto <= 10000) {
+		else if (sueldoBruto > 5000 && sueldoBruto <= 10000) {
 			sueldoNeto = sueldoBruto - (sueldoBruto*0.05);
 			System.out.println("El sueldo neto es: " + sueldoNeto);
 		}
 
-		if (sueldoBruto > 10000) {
+		else if (sueldoBruto > 10000) {
 			sueldoNeto = sueldoBruto - (sueldoBruto*0.15);	
 			System.out.println("El sueldo neto es: " + sueldoNeto);
 		}
