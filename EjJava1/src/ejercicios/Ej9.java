@@ -8,7 +8,7 @@ public class Ej9 {
 	/**
 	 * 9.-Hacer un algoritmoque calcule el sueldo neto semanal de un trabajador a
 	 * partir de la lectura de las horas trabajadas y el precio por hora. Para el
-	 * cálculo del sueldo neto hay que tener en cuenta los siguientes datos:
+	 * cï¿½lculo del sueldo neto hay que tener en cuenta los siguientes datos:
 	 */
 
 	public static void main(String[] args) {
@@ -51,13 +51,13 @@ public class Ej9 {
 			} while (pHora < 0); // si el usuario introduce un precio inferior a cero volvera a preguntar
 
 		} catch (InputMismatchException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		} catch (NullPointerException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		} catch (NumberFormatException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		}
 

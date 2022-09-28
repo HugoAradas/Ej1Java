@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Ej6 {
 
 	/**
-	 * 6.-Construir un algoritmo para visualizar los N primeros múltiplosde 4, donde
-	 * N es un número que se lee por teclado.
+	 * 6.-Construir un algoritmo para visualizar los N primeros mï¿½ltiplosde 4, donde
+	 * N es un nï¿½mero que se lee por teclado.
 	 */
 
 	public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class Ej6 {
 			n = sc.nextInt();
 
 		} catch (InputMismatchException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		}
 

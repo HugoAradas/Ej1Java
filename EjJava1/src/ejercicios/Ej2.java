@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ej2 {
 
 	/**
-	 * 2.-Construir un algoritmo que leído un número por teclado nos diga si es
+	 * 2.-Construir un algoritmo que leï¿½do un nï¿½mero por teclado nos diga si es
 	 * positivo, negativo o nulo.
 	 */
 
@@ -28,7 +28,7 @@ public class Ej2 {
 			numero = sc.nextInt();
 
 		} catch (InputMismatchException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		}
 

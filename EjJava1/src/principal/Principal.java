@@ -1,5 +1,6 @@
 package principal;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import ejercicios.Ejercicios;
@@ -25,10 +26,21 @@ public class Principal {
 		boolean menuValido = false;
 
 		do {
-			System.out.println(
-					"Selecciona un ejercicio: \n 1. Ejercicio 1 \n 2. Ejercicio 2 \n 3. Ejercicio 3 \n 4. Ejercicio 4 \n 5. Ejercicio 5 \n 6. Ejercicio 6 "
-							+ "\n 7. Ejercicio 7 \n 8. Ejercicio 8 \n 9. Ejercicio 9 \n 10. Ejercicio 10 \n 0. Salir");
-			menu = sc.nextInt();
+			try {
+				System.out.println(
+						"Selecciona un ejercicio: \n 1. Ejercicio 1 \n 2. Ejercicio 2 \n 3. Ejercicio 3 \n 4. Ejercicio 4 \n 5. Ejercicio 5 \n 6. Ejercicio 6 "
+						+ "\n 7. Ejercicio 7 \n 8. Ejercicio 8 \n 9. Ejercicio 9 \n 10. Ejercicio 10 \n 0. Salir");
+				menu = sc.nextInt();
+			} catch (InputMismatchException e) {
+				System.out.println("Se ha producido una Exception:" + e.getMessage());
+				e.printStackTrace();
+			} catch (NullPointerException e) {
+				System.out.println("Se ha producido una Exception:" + e.getMessage());
+				e.printStackTrace();
+			} catch (NumberFormatException e) {
+				System.out.println("Se ha producido una Exception:" + e.getMessage());
+				e.printStackTrace();
+			}
 			menuValido = (menu < 0 || menu > 10 ? false : true);
 			if (!menuValido) {
 				System.out.println("Introduce una opcion valida");

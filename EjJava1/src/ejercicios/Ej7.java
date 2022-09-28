@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Ej7 {
 
 	/**
-	 * 7.-Construir un algoritmopara introducir una serie de números, que finaliza
-	 * al leer el número 0. Una vez que ha finalizadala captura de números queremos
-	 * saber cuantos había mayores, iguales y menores que 50.
+	 * 7.-Construir un algoritmopara introducir una serie de nï¿½meros, que finaliza
+	 * al leer el nï¿½mero 0. Una vez que ha finalizadala captura de nï¿½meros queremos
+	 * saber cuantos habï¿½a mayores, iguales y menores que 50.
 	 */
 
 	public static void main(String[] args) {
@@ -37,7 +37,7 @@ public class Ej7 {
 				n = sc.nextInt();
 
 			} catch (InputMismatchException e) {
-				System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+				System.out.println("Se ha producido una Exception:" + e.getMessage());
 				e.printStackTrace();
 			}
 

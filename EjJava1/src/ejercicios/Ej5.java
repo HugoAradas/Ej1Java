@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ej5 {
 
 	/**
-	 * 5.-Construir un algoritmo que leídos tres números introducidos por teclado me
+	 * 5.-Construir un algoritmo que leï¿½dos tres nï¿½meros introducidos por teclado me
 	 * visualice el mayor.
 	 */
 
@@ -34,7 +34,7 @@ public class Ej5 {
 			n3 = sc.nextInt();
 
 		} catch (InputMismatchException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		}
 

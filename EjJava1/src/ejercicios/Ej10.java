@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Ej10 {
 
 	/**
-	 * 10.-Diseñar el algoritmo de un programa que lee un número entero positivo y
-	 * determina el número de dígitos necesarios para la representación de ese
+	 * 10.-Diseï¿½ar el algoritmo de un programa que lee un nï¿½mero entero positivo y
+	 * determina el nï¿½mero de dï¿½gitos necesarios para la representaciï¿½n de ese
 	 * valor.
 	 */
 
@@ -29,7 +29,7 @@ public class Ej10 {
 			n = sc.nextInt();
 
 		} catch (InputMismatchException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		}
 

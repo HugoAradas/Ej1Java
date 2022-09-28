@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class Ej1 {
 
 	/**
-	 * 1.-Construir un algoritmo que tome como dato de entrada un número que
+	 * 1.-Construir un algoritmo que tome como dato de entrada un nï¿½mero que
 	 * corresponde a la longitud de un radio y nos calcula y escribe la longitud de
-	 * la circunferencia, el área del círculo y el volumen de la esfera
+	 * la circunferencia, el ï¿½rea del cï¿½rculo y el volumen de la esfera
 	 */
 
 	public static void main(String[] args) {
@@ -35,13 +35,13 @@ public class Ej1 {
 														// en un formato en especifico se parsea*
 
 		} catch (InputMismatchException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		} catch (NullPointerException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		} catch (NumberFormatException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		}
 

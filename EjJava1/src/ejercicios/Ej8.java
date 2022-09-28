@@ -7,7 +7,7 @@ public class Ej8 {
 
 	/**
 	 * 8.-Escribir un algoritmoque lea una temperatura en grados Fahrenheit y
-	 * escriba su equivalente en grados centígradosC=(F-32)*5/9
+	 * escriba su equivalente en grados centï¿½gradosC=(F-32)*5/9
 	 */
 
 	public static void main(String[] args) {
@@ -29,13 +29,13 @@ public class Ej8 {
 															// reciba en un formato en especifico se parsea*
 
 		} catch (InputMismatchException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		} catch (NullPointerException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		} catch (NumberFormatException e) {
-			System.out.println("Se ha producido una FileNotFoundException:" + e.getMessage());
+			System.out.println("Se ha producido una Exception:" + e.getMessage());
 			e.printStackTrace();
 		}
 
