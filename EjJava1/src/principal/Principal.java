@@ -102,7 +102,7 @@ public class Principal {
 			}
 
 		} while (!menuValido);
-
+		sc.close();
 	}
 
 }
